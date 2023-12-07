@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Basics</title>
+</head>
+<body>
+    <center>
+        <h1>Arithmetic Operators</h1>
+    </center>
+    <hr>
+
+    <script>
+        let firstNumber = 50;
+        let lastNumber = 30;
+
+        document.write(`<h2>Addition +</h2>`);
+        let addition = firstNumber + lastNumber;
+        document.write(`<h3>Addition of Two Numbers is :${addition}</h3><hr>`);
+
+        document.write(`<h2>substraction -</h2>`);
+        let substraction = firstNumber - lastNumber;
+        document.write(`<h3>substraction of Two Numbers is :${substraction}</h3><hr>`);
+
+        document.write(`<h2> Multiplication *</h2>`);
+        let  multiplication = firstNumber * lastNumber;
+        document.write(`<h3> Multiplication of Two Numbers is :${ multiplication}</h3><hr>`);
+
+        document.write(`<h2>Division /</h2>`);
+        let division = firstNumber / lastNumber;
+        document.write(`<h3>Division of Two Numbers is :${division}</h3><hr>`);
+
+        document.write(`<h2>Modulus %</h2>`);
+        let modulus = firstNumber % lastNumber;
+        document.write(`<h3>Modulus of Two Numbers is :${modulus}</h3><hr>`);
+
+       
+        let preincrement = ++firstNumber;
+        document.write(`<h3>Pre-Increment of  firstNumbers is (1+50):${preincrement}
+           </h3><hr>`);
+
+           let postincrement = firstNumber++;
+        document.write(`<h3>Pre-Increment of  firstNumbers is (1+50):${preincrement}
+           </h3><hr>`);
+
+           let predecriment = ++firstNumber;
+        document.write(`<h3>Pre-Increment of  firstNumbers is (1+50):${predecriment}
+           </h3><hr>`);
+    </script>
+</body>
+</html>
